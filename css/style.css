@@ -1,5 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container-1440 {
+    width: 1440px;
+}
+
+[class*="col-"] {
+    border: 1px white solid;
+    background-color: #006cfa;
+    color: white;
+    text-align: center;
+    height: 50px;
 }
