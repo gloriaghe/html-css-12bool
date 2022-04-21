@@ -2,6 +2,10 @@
     width: 500px;
     margin: 0 auto;
 }
+body{
+    background-color: palegreen;
+
+}
 
     [class*="col-"] {
     height: 20px;
@@ -33,4 +37,8 @@
 
 .brown-dark {
     background-color: #612c06;
+}
+
+.white {
+    background-color: white;
 }
