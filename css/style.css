@@ -5,7 +5,25 @@
 [class*="col-"] {
     border: 1px white solid;
     background-color: #006cfa;
-    color: white;
-    text-align: center;
     height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+span{
+    color: white;
+}
+.col-tall {
+    height: 70px;
+}
+.col-green{
+    background-color: #00e165;
+    margin: 1px;
+}
+
+.row-margin{
+    margin-bottom: 20px;
 }
