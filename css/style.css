@@ -12,18 +12,26 @@
     text-align: center;
 }
 
-
 span{
     color: white;
-}
-.col-tall {
-    height: 70px;
-}
-.col-green{
-    background-color: #00e165;
-    margin: 1px;
 }
 
 .row-margin{
     margin-bottom: 20px;
+}
+
+/* nested green */
+
+.row-green {
+    width: 95%;
+    margin: auto;
+}
+
+.col-tall {
+    height: 80px;
+}
+
+.col-green{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
 }
